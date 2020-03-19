@@ -1,0 +1,163 @@
+body {
+    margin: 10px auto;
+    padding: 5px 30px;
+    background-color: lightgray;
+}
+
+
+/* for header */
+
+header {
+    background-color: #4d4d;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-image: url("/asset/Image/p3.jpeg");
+    text-align: center;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 40px;
+}
+
+hr {
+    border: black solid;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+nav>ul>li>a:hover {
+    background-color: #4d4dff;
+}
+
+
+/* .................................................................................. */
+
+
+/* the body part */
+
+div {
+    float: left;
+    height: 150;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+div {
+    padding: 50px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    list-style: circle;
+    font-size: 25px;
+    color: #ff5500;
+}
+
+div>div {
+    display: flex;
+    position: row;
+}
+
+#A {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+#first {
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+#a {
+    float: left;
+    padding-left: 100px;
+    width: 30%;
+    height: 10%;
+}
+
+#b {
+    width: 53%;
+    height: 100%;
+    left: 0px;
+    float: right;
+}
+
+#a>form>span>input {
+    margin: 20px;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#a>form>label>input {
+    width: 10%;
+    height: 30px;
+}
+
+#fot {
+    background-color: #ffff80;
+    margin-top: 200px;
+    padding: 0px;
+    padding-left: 20px;
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    nav>ul>li {
+        font-size: 20px;
+    }
+    #A {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+    #a {
+        float: left;
+        padding-left: 100px;
+        width: 20%;
+        height: 10%;
+    }
+    #b {
+        width: 33%;
+        height: 50%;
+        left: 0px;
+        float: right;
+    }
+    #first {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    nav>ul>li {
+        font-size: 20px;
+    }
+    #A {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+    #a {
+        float: left;
+        padding-left: 100px;
+        width: 10%;
+        height: 10%;
+    }
+    #b {
+        width: 13%;
+        height: 50%;
+        left: 0px;
+    }
+}

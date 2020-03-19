@@ -1,0 +1,306 @@
+body {
+    background-color: #d9d9d9;
+}
+
+.container {
+    display: flex;
+    direction: row;
+}
+
+div {
+    margin: auto;
+}
+
+.of {
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background: #000;
+}
+
+.oof {
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+    margin-left: 15px;
+    background: #000;
+}
+
+.ooof {
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+    margin-left: 15px;
+    background: #000;
+}
+
+nav>ul>li>a:hover {
+    background-color: #4d4dff;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Australia */
+
+#au {
+    background-color: #ff3333;
+}
+
+#st {
+    background-color: white;
+}
+
+#rl {
+    background-color: #ff3333;
+}
+
+
+/* mauritis */
+
+#ma {
+    background-color: #ff3333;
+    height: 36px;
+}
+
+#ur {
+    background: blue;
+    height: 36px;
+}
+
+#it {
+    background-color: yellow;
+    height: 36px;
+}
+
+#is {
+    background-color: green;
+    height: 36px;
+}
+
+
+/* bulgaria */
+
+#bo {
+    background-color: yellow;
+    height: 62px;
+}
+
+#tu {
+    background-color: blue;
+    height: 39px;
+}
+
+#sw {
+    background-color: red;
+    height: 39px;
+}
+
+#lala {
+    width: 60px;
+    height: 80px;
+    background-color: blue;
+    float: left;
+    margin-left: 0px;
+    padding-inline-start: 55;
+}
+
+#ti {
+    background-color: white;
+    height: 80px;
+}
+
+#ala {
+    height: 90px;
+    background-color: red;
+    height: 70px;
+}
+
+
+/* russia */
+
+#ru {
+    background-color: white;
+}
+
+#ss {
+    background-color: blue;
+}
+
+#ia {
+    background-color: red;
+}
+
+
+/* estonia */
+
+#es {
+    background-color: aqua;
+}
+
+#to {
+    background-color: #000;
+}
+
+#ni {
+    background-color: white;
+}
+
+
+/* germani */
+
+#ge {
+    background-color: #000;
+}
+
+#rm {
+    background-color: red;
+}
+
+#ny {
+    background-color: yellow;
+}
+
+
+/* hungari */
+
+#hu {
+    background-color: #ff3333;
+}
+
+#ng {
+    background-color: white;
+}
+
+#ri {
+    background-color: green;
+}
+
+
+/* ukraine */
+
+#uk {
+    background-color: blue;
+    height: 75px;
+}
+
+#ra {
+    background-color: yellow;
+    height: 75px;
+}
+
+
+/* lituania */
+
+#li {
+    background-color: yellow;
+}
+
+#tu {
+    background-color: green;
+}
+
+#aan {
+    background-color: red;
+}
+
+
+/*  CotDIvoar*/
+
+#co {
+    background-color: orange;
+    width: 140px;
+    padding-left: 50px;
+    height: 150px;
+}
+
+#di {
+    background-color: white;
+    height: 150px;
+    width: 21px;
+    padding-left: 50px;
+}
+
+#va {
+    background-color: green;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 20px;
+    height: 80px;
+    padding-left: 50px;
+    height: 150px;
+}
+
+
+/* france */
+
+#fr {
+    background-color: blue;
+    width: 140px;
+    padding-left: 50px;
+    height: 150px;
+}
+
+#an {
+    background-color: white;
+    height: 150px;
+    width: 21px;
+    padding-left: 50px;
+}
+
+#ce {
+    background-color: red;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 20px;
+    height: 80px;
+    padding-left: 50px;
+    height: 150px;
+}
+
+
+/* ganon */
+
+#ga {
+    background-color: #00cc66;
+}
+
+#bo {
+    background-color: yellow;
+}
+
+#nn {
+    background-color: #1a75ff;
+}
+
+
+/* romania */
+
+#ro {
+    background-color: #0000cc;
+    width: 140px;
+    padding-left: 50px;
+    height: 150px;
+}
+
+#maa {
+    background-color: yellow;
+    height: 150px;
+    width: 21px;
+    padding-left: 50px;
+}
+
+#nii {
+    background-color: red;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 20px;
+    height: 80px;
+    padding-left: 50px;
+    height: 150px;
+}

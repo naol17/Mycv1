@@ -1,0 +1,35 @@
+    #containertwo {
+        font-family: 'Courier New', Courier, monospace;
+        color: #000;
+        display: flex;
+        float: left;
+    }
+    
+    section {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: oblique;
+        font-size: 20px;
+        float: right;
+        color: chartreuse;
+    }
+    
+    #contactone {
+        background-image: url("./asset/Image/p5.jpeg");
+        margin-bottom: 50px;
+    }
+    
+    .mapouter {
+        float: left;
+    }
+    
+    section>div>form>input {
+        height: 300px;
+        width: 50%;
+        margin: 20px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    
+    #isisi {
+        height: 50px;
+    }
